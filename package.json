@@ -12,12 +12,13 @@
   },
   "keywords": [
     "eslint",
-    "elemefe"
+    "elemefe",
+    "ylfe"
   ],
   "author": "lite@yongliweb.com",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/ElemeFE/eslint-config-elemefe/issues"
   },
-  "homepage": "https://github.com/Chaslee4/eslint-config-elemefe/blob/master/README.md"
+  "homepage": "https://github.com/Chaslee4/eslint-config-elemefe"
 }

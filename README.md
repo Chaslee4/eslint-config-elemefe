@@ -1,48 +1,49 @@
-# eslint-config-elemefe
+# eslint-config-ylfe
 
-This package provides Elemefe's base JS .eslintrc as an extensible shared config.
+Eslint rules for ylfe based on Elemefe's eslint rule.
+Forked form project[https://github.com/ElemeFE/eslint-config-elemefe]
 
 ## Usage
 
-### eslint-config-elemefe
+### eslint-config-ylfe
 
 Our default export contains all of our ESLint rules, including ECMAScript 6.
 
 First, install this package
 ```sh
-npm install --save-dev eslint-config-elemefe eslint
+npm install --save-dev eslint-config-ylfe eslint
 ```
 Then add following contents to your .eslintrc file
 ```
 {
-  "extends": "elemefe"
+  "extends": "ylfe"
 }
 ```
 
-### eslint-config-elemefe/legacy
+### eslint-config-ylfe/legacy
 
 For some legacy project using es5.
 
 First, install this package
 ```sh
-npm install --save-dev eslint-config-elemefe eslint
+npm install --save-dev eslint-config-ylfe eslint
 ```
 Then add following contents to your .eslintrc file
 ```
 {
-  "extends": "elemefe/legacy"
+  "extends": "ylfe/legacy"
 }
 ```
 
-### eslint-config-elemefe/react
+### eslint-config-ylfe/react
 First, install this package and necessary plugins
 ```sh
-npm install --save-dev eslint-config-elemefe eslint babel-eslint eslint-plugin-react eslint-plugin-import eslint-plugin-jsx-a11y
+npm install --save-dev eslint-config-ylfe eslint babel-eslint eslint-plugin-react eslint-plugin-import eslint-plugin-jsx-a11y
 ```
 Then add following contents to your .eslintrc file
 ```
 {
-  "extends": "elemefe/react"
+  "extends": "ylfe/react"
 }
 ```
 
